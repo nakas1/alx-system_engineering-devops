@@ -1,2 +1,2 @@
 #!/bin/bash
-chown a+x hello
+chmod +x add_execute_permission_hello
