@@ -1,14 +1,2 @@
 #!/bin/bash
-source_dir=$(pwd)
-destination_dir=$(dirname "$source_dir")
-
-find "$source_dir" -name "*.html" -type f | while read -r file; do
-  destination_file="$destination_dir/$(basename "$file")"
-
-  if [[ ! -f "$destination_file" || "$file" -nt "$destination_file" ]]; then
-    cp "$file" "$destination_dir"
-    echo "Copied: $file"
-  else
-    echo "Skipped: $file"
-  fi
-done
+source_dir=pwd
