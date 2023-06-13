@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "ABCdefg cde" | ./replace_characters.sh
