@@ -1,2 +1,2 @@
 #!/bin/bash
-files=$(ls -lt | grep -v '^d' | head -n 10)
+echo $(($BREATH**LOVE))
