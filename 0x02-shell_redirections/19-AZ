@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "ABCdefg cde" | ./replace_characters.sh
+tr "A" "Z" | tr "c" "e"

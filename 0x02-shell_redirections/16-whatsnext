@@ -1,2 +1,3 @@
 #!/bin/bash
-./count_bin.sh
+grep -iA 3 "root" /etc/passwd
+
